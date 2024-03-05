@@ -1,0 +1,30 @@
+.App {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  padding: 10px;
+}
+.App form, .tabla{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 400px;
+  width: 250px;
+  box-shadow: 0 1px 6px 0 #20212447;
+  border-color: black;
+  padding: 20px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+form label{
+  display: flex;
+  justify-content: space-between;
+}
+
+.tabla{
+  width: 750px;
+  text-align: center;
+
+}
